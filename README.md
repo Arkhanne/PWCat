@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 The aim of this project is to learn how Progressive Web Applications works, following this tutorial: https://medium.com/@nsmirnova/creating-pwa-with-angular-5-e36ea2378b5d
 
+--> WARNING: This project is not finished due to angular version problems. I'll try to make a PWA with other tutorial
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
