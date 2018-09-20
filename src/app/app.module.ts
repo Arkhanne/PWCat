@@ -19,7 +19,8 @@ import { environment } from '../environments/environment';
     MatToolbarModule,
     MatCardModule,
     MatButtonModule,
-    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
+    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : [],
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
